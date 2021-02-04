@@ -10,6 +10,8 @@
 6. html
 7. css
 8. js
+
+##项目博客地址：https://blog.csdn.net/weixin_43891901/article/details/113655444
 # 1、VSCode创建项目
 
 - 先选择**一个项目路径**，通过**终端命令行**进入：
