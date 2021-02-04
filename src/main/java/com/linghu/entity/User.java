@@ -1,5 +1,6 @@
 package com.linghu.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,5 +18,6 @@ public class User {
     private String id;
     private String name;
     private Integer age;
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone = "GTM+8")
     private Date bir;
 }
